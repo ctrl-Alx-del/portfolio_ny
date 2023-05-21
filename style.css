@@ -1,92 +1,92 @@
 * {
-    margin: 0;
+  margin: 0;
 }
 
 body {
-    background-size: 100% 100%;
-    background-position: 0px 0px,0px 0px,0px 0px,0px 0px,0px 0px;
-    background-image: repeating-linear-gradient(315deg, #00FFFF2E 92%, #073AFF00 100%),repeating-radial-gradient(75% 75% at 238% 218%, #00FFFF12 30%, #073AFF14 39%),radial-gradient(99% 99% at 109% 2%, #00C9FFFF 0%, #073AFF00 100%),radial-gradient(99% 99% at 21% 78%, #7B00FFFF 0%, #073AFF00 100%),radial-gradient(160% 154% at 711px -303px, #2000FFFF 0%, #073AFFFF 100%);
+  background-size: 100% 100%;
+  background-position: 0px 0px, 0px 0px, 0px 0px, 0px 0px, 0px 0px;
+  background-image: repeating-linear-gradient(315deg, #00ffff2e 92%, #073aff00 100%), repeating-radial-gradient(75% 75% at 238% 218%, #00ffff12 30%, #073aff14 39%),
+    radial-gradient(99% 99% at 109% 2%, #00c9ffff 0%, #073aff00 100%), radial-gradient(99% 99% at 21% 78%, #7b00ffff 0%, #073aff00 100%),
+    radial-gradient(160% 154% at 711px -303px, #2000ffff 0%, #073affff 100%);
 }
 
-
 ul {
-    display: flex;
-    margin-right: 105px;
+  display: flex;
+  margin-right: 105px;
 }
 
 li {
-    list-style-type: none;
-    font-size: 1.5rem;
+  list-style-type: none;
+  font-size: 1.5rem;
 }
 
-header{
-    background-color: #2000FFFF;
-    display: flex;
-    height: 5rem;
+header {
+  background-color: #2000ffff;
+  display: flex;
+  height: 5rem;
 }
 
-a{
-    cursor: pointer;
-    color: rgb(255, 108, 0);
-    margin: 20px;
-    text-decoration: none;
+a {
+  cursor: pointer;
+  color: rgb(255, 108, 0);
+  margin: 20px;
+  text-decoration: none;
 }
-
 
 footer {
-    background-color: #2000FFFF;
-    height: 100px;
-    color: white;
-    display: flex;
-    justify-content: center;
+  background-color: #2000ffff;
+  height: 100px;
+  color: white;
+  display: flex;
+  justify-content: center;
 }
 
 .nav-container {
-    display: flex;
-    justify-content: center;
-    width: 100%;
-    align-items: center;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  align-items: center;
 }
 
-h1{
-    padding-top: 20px;
-    display: flex;
-    justify-content: center;
-    color: #2000FFFF;
-    font-size: 7rem;
-    font-family: 'Lobster', cursive;
+h1 {
+  padding-top: 20px;
+  display: flex;
+  justify-content: center;
+  color: #2000ffff;
+  font-size: 7rem;
+  font-family: "Lobster", cursive;
+  -webkit-text-stroke: 1px black;
 }
 
 h2 {
-    font-size: 2.5rem;
-    white-space: nowrap;
+  font-size: 2.5rem;
+  white-space: nowrap;
 }
 
-.logo{
-    display: flex;
-    align-items: center;
-    color: #ffa700;
-    margin-left: 20px;
-    font-family: 'Lobster', cursive;
+.logo {
+  display: flex;
+  align-items: center;
+  color: #ffa700;
+  margin-left: 20px;
+  font-family: "Lobster", cursive;
 }
 
 .logo:hover {
-    animation: fadeToWhite 1s forwards;
+  animation: fadeToWhite 1s forwards;
 }
 
 @keyframes fadeToWhite {
-    to {
-        color: white;
-    }
+  to {
+    color: white;
+  }
 }
 
-
 .align-left {
-    margin-left: 5px;
+  margin-left: 5px;
 }
 
 .hidden {
-    display: none;
+  display: none;
 }
 
 .about-section{
@@ -98,17 +98,17 @@ h2 {
 }
 
 .contact {
-    display: flex;
-    align-items: center;
-    height: 100%;
+  display: flex;
+  align-items: center;
+  height: 100%;
 }
 
-.contact-ul{
-    flex-direction: column;
+.contact-ul {
+  flex-direction: column;
 }
 
 .contact-ul > li {
-    margin: 5px;
+  margin: 5px;
 }
 
 .about {
@@ -135,82 +135,82 @@ h2 {
 }
 
 img {
-    width: 100%;
-    border: 1px solid black;
-    border-radius: 5px;
+  width: 100%;
+  border: 1px solid black;
+  border-radius: 5px;
 }
 
 a:hover {
- animation: fade 1s forwards;
+  animation: fade 1s forwards;
 }
 
 @keyframes fade {
-   
-    to {
-        color: #ffa700;;
-    }
+  to {
+    color: #ffa700;
+  }
 }
 
-.about-headline, .projects-headline, .cv-headline {
-    padding: 35px;
+.about-headline,
+.projects-headline,
+.cv-headline {
+  padding: 35px;
 }
 
-.about-headline, .projects-headline, .cv-headline{
-    color: #bfd8ff;
+.about-headline,
+.projects-headline,
+.cv-headline {
+  color: #bfd8ff;
 }
 
-
-.project{
-    height: 250px;
-    width: 200px;
-    background-color: #7B00FFFF;
-    justify-self: center;
-    border: 1px solid black;
-    border-radius: 30px;
+.project {
+  height: 250px;
+  width: 200px;
+  background-color: #7b00ffff;
+  justify-self: center;
+  border: 1px solid black;
+  border-radius: 30px;
 }
 
 .projects {
-    width: 100%;
+  width: 100%;
 }
 
 .project-container {
-    display: grid;
-    grid-template-columns: repeat(4, 275px);
-    grid-template-rows: repeat(2, 1fr);
-    align-content: center;
-    gap: 20px;
-    justify-content: center;
+  display: grid;
+  grid-template-columns: repeat(4, 275px);
+  grid-template-rows: repeat(2, 1fr);
+  align-content: center;
+  gap: 20px;
+  justify-content: center;
 }
 
 .projects-section {
-    height: 100vh;
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    justify-content: center;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
 }
-
 
 .project {
-   transition: transform 0.3s ease;
-   box-shadow: 10px 10px #3A0375;
-   display: flex;
-   justify-content: center;
-   align-items: center;
-   
+  transition: transform 0.3s ease;
+  box-shadow: 10px 10px #3a0375;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.about-container{
-    transition: transform 0.3s ease;
-    box-shadow: 10px 10px #1b61c8
+.about-container {
+  transition: transform 0.3s ease;
+  box-shadow: 10px 10px #1b61c8;
 }
 
-.about-container:hover{
-    transform: translateY(-10px);
+.about-container:hover {
+  transform: translateY(-10px);
 }
 
 .project:hover {
-    transform: translateY(-10px);
+  transform: translateY(-10px);
 }
 
 .lines {
@@ -222,47 +222,49 @@ a:hover {
 }
 
 .about-text {
-    background-color: white;
+  background-color: white;
 }
 
 @keyframes changeFont {
-    from
-    {
-        font-family: Arial, Helvetica, sans-serif;    }
-    to {
-        font-family: 'Flow Circular', cursive;
-    }
+  from {
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  to {
+    font-family: "Flow Circular", cursive;
+  }
 }
 
-#about, #projects, .about-link, .projects-link, .cv-headline, .CV{
-    font-family: 'Righteous', cursive;;
+#about,
+#projects,
+.about-link,
+.projects-link,
+.cv-headline,
+.CV {
+  font-family: "Righteous", cursive;
 }
 
 h3 {
-    font-size: 2.2rem;
-    text-align: center;
+  font-size: 2.2rem;
+  text-align: center;
 }
 
 span {
-    font-weight: bold;
+  font-weight: bold;
 }
 
 .CV-section {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-bottom: 5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 5rem;
 }
-
-
 
 #CV {
-    text-align: center;
+  text-align: center;
 }
 
-
 .cv-images {
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
 }
